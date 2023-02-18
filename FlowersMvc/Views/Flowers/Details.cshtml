@@ -1,0 +1,54 @@
+﻿@model FlowersMvc.Models.Flowers
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Flowers</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ScientificName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ScientificName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BloomingSeason)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BloomingSeason)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Fragrance)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Fragrance)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GrowingConditions)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GrowingConditions)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
