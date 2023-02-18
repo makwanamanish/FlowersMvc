@@ -54,7 +54,7 @@ namespace FlowersMvc.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ScientificName,Color,BloomingSeason,Size,Fragrance,GrowingConditions")] Flowers flowers)
+        public async Task<IActionResult> Create([Bind("Id,ScientificName,Color,BloomingSeason,Size,Fragrance,GrowingConditions,Rating")] Flowers flowers)
         {
             if (ModelState.IsValid)
             {

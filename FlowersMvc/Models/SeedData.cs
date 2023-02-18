@@ -28,7 +28,8 @@ namespace FlowersMvc.Models
                         BloomingSeason = "Spring",
                         Size = "Small",
                         Fragrance = "Strong",
-                        GrowingConditions = "Full sun"
+                        GrowingConditions = "Full sun",
+                        Rating = "5"
                     },
                     new Flowers
                     {
@@ -37,7 +38,8 @@ namespace FlowersMvc.Models
                         BloomingSeason = "Summer",
                         Size = "Medium",
                         Fragrance = "Light ",
-                        GrowingConditions = "Partial sun"
+                        GrowingConditions = "Partial sun",
+                        Rating = "4"
                     },
                     new Flowers
                     {
@@ -46,7 +48,8 @@ namespace FlowersMvc.Models
                         BloomingSeason = "Fall",
                         Size = "Large",
                         Fragrance = "No scent  ",
-                        GrowingConditions = "Shade"
+                        GrowingConditions = "Shade",
+                        Rating = "5"
                     },
                      new Flowers
                      {
@@ -55,7 +58,8 @@ namespace FlowersMvc.Models
                          BloomingSeason = "Winter",
                          Size = "Extra-large ",
                          Fragrance = "Sweet  ",
-                         GrowingConditions = "Moist soil"
+                         GrowingConditions = "Moist soil",
+                         Rating = "3"
                      },
                       new Flowers
                       {
@@ -63,8 +67,9 @@ namespace FlowersMvc.Models
                           Color = "White",
                           BloomingSeason = "Year-round",
                           Size = "Varying ",
-                          Fragrance = "Spicy (  ",
-                          GrowingConditions = "Well-drained soil"
+                          Fragrance = "Spicy   ",
+                          GrowingConditions = "Well-drained soil",
+                          Rating = "1"
                       },
                       new Flowers
                       {
@@ -72,8 +77,9 @@ namespace FlowersMvc.Models
                           Color = "Purple",
                           BloomingSeason = "Peak bloom",
                           Size = "Medium  ",
-                          Fragrance = "Sweet (  ",
-                          GrowingConditions = "Well-drained soil"
+                          Fragrance = "Sweet  ",
+                          GrowingConditions = "Well-drained soil",
+                          Rating = "4"
                       },
                       new Flowers
                       {
@@ -81,8 +87,9 @@ namespace FlowersMvc.Models
                           Color = "Blue",
                           BloomingSeason = "Fall ",
                           Size = "large  ",
-                          Fragrance = "Light (  ",
-                          GrowingConditions = "Acidic soil"
+                          Fragrance = "Light  ",
+                          GrowingConditions = "Acidic soil",
+                          Rating = "2"
                       },
                       new Flowers
                       {
@@ -90,8 +97,9 @@ namespace FlowersMvc.Models
                           Color = "Yellow",
                           BloomingSeason = "Fall ",
                           Size = "Small  ",
-                          Fragrance = "Sweet (  ",
-                          GrowingConditions = "Alkaline soil"
+                          Fragrance = "Sweet   ",
+                          GrowingConditions = "Alkaline soil",
+                          Rating = "3"
                       },
 
                        new Flowers
@@ -101,7 +109,8 @@ namespace FlowersMvc.Models
                            BloomingSeason = "spring ",
                            Size = "large  ",
                            Fragrance = "Light   ",
-                           GrowingConditions = "Low humidity"
+                           GrowingConditions = "Low humidity",
+                           Rating = "5"
                        },
                        new Flowers
                        {
@@ -110,7 +119,8 @@ namespace FlowersMvc.Models
                            BloomingSeason = "spring ",
                            Size = "medium  ",
                            Fragrance = "Light   ",
-                           GrowingConditions = "Sandy soil"
+                           GrowingConditions = "Sandy soil",
+                           Rating = "4"
                        }
                 );
                 context.SaveChanges();

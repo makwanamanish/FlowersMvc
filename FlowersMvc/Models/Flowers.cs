@@ -12,5 +12,6 @@ namespace FlowersMvc.Models
         public string Size { get; set; }
         public string Fragrance { get; set; }
         public string GrowingConditions { get; set; }
+        public string Rating { get; set; }
     }
 }
