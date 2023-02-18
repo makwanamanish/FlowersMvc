@@ -1,1 +1,6 @@
 # FlowersMvc
+1.	First of all, I downloaded visual studio and dotnet 3.1. After that, set up HTTPS and include individual account authentication for the given project named ‘Flowers’. After that, build a GitHub repository as I start the assignment in VS to back up my application.
+2.	After that, I followed the Controller-View-Model materials which are provided, and created the About Us page in the View. In that, I added the information about the fictional company's name which is ‘Floral World’ corporate offices, employees, and general product description which is ‘Flowers’.
+3.	After that, I changed the page’s title to match the name of my fictional company. After that, I created a customized one by adding product photos, changing the default design, presenting specific color preferences, and even font with the file named ‘style.css’ I also added an image of my product which is ‘Flower’. 
+4.	I created a File named ‘SeedData.cs’ in the Model file. I also used Nudget Packages to perform Data Migration.  I also performed scaffolding with the Controller. In the SeedData.cs file, I entered all 6 types of properties of my given product with the 10 values. 
+5.	At the end, I also Added a new field named ‘Rating’ and performed Migration. 
